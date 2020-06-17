@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="welcome">Welcome to the Quiz Game</string>
+    <string name="hint">Please Enter your Name</string>
+    <string name="guide">Answer the next few questions, then click submit to see your score:</string>
+    <string name="q1">Question 1: What is the Capital of the United Kingdom?</string>
+    <string name="answerHint">Enter your Answer Here</string>
+    <string name="q3">Question 3: Who is the Best Football Player in 2019?</string>
+    <string name="q2">Question 2: What is the Capital France?</string>
+    <string name="q4">Question 4: Who is Football Player with most goals in Elclasico?</string>
+    <string name="q5">Question 5: Who is Football Player with most goals in one Calender year?</string>
+    <string name="q6">Question 6: Who is the Best Football Player in the History of Football?</string>
+    <string name="germany">Germany</string>
+    <string name="brazil">Brazil</string>
+    <string name="saudi_arabia">Saudi Arabia</string>
+    <string name="submit">Submit</string>
+    <string name="q7">Question 7: Select all Football World Cup Winners from the Following Teams:</string>
+    <string name="ans1">london</string>
+    <string name="ans2">paris</string>
+    <string name="ans6">messi</string>
+</resources>

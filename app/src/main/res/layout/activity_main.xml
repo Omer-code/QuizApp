@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE9E7"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/allTitleStyle"
+            android:fontFamily="cursive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/welcome" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/hint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/guide"
+            android:textColor="#BF360C"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/allTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/q1" />
+
+        <EditText
+            android:id="@+id/Q1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:hint="@string/answerHint" />
+
+        <TextView
+            style="@style/allTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/q2" />
+
+        <EditText
+            android:id="@+id/Q2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:hint="@string/answerHint" />
+
+        <TextView
+            android:id="@+id/Q3"
+            style="@style/allTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/q3" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/messi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Messi" />
+
+            <RadioButton
+                android:id="@+id/ronaldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ronaldo" />
+
+            <RadioButton
+                android:id="@+id/neymar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neymar" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/Q4"
+            style="@style/allTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/q4" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ronaldo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ronaldo" />
+
+            <RadioButton
+                android:id="@+id/neymar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neymar" />
+
+            <RadioButton
+                android:id="@+id/messi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Messi" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/Q5"
+            style="@style/allTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/q5" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/messi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Messi" />
+
+            <RadioButton
+                android:id="@+id/neymar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neymar" />
+
+            <RadioButton
+                android:id="@+id/ronaldo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ronaldo" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/allTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/q6" />
+
+        <EditText
+            android:id="@+id/Q6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/answerHint" />
+
+        <TextView
+            style="@style/allTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/q7" />
+
+        <CheckBox
+            android:id="@+id/saudi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saudi_arabia" />
+
+        <CheckBox
+            android:id="@+id/brazil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brazil" />
+
+        <CheckBox
+            android:id="@+id/germany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/germany" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>
